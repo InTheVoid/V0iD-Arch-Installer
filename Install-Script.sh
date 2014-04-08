@@ -44,7 +44,7 @@ echo "Type your new password:"
 read $password
 echo "Type your new ROOT password:"
 read $rootpass
-echo "Is this info right? (y/n)"
+echo "Is this info right? (yes/no)"
 read $yn
 if [$yn = "no"] then
 	 basicinfo
@@ -64,7 +64,7 @@ read $home_hd
 echo "Swap:"
 read $swap_hd
 
-echo "Are your partitions right? (y/n)"
+echo "Are your partitions right? (yes/no)"
 read $yn
 if [$yn = "no"] then
 	 getpart
